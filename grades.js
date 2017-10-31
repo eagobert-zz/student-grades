@@ -51,6 +51,19 @@ for (let i = 0; i < scores.length; i++) {
 }
 
 // How many of each grade? Accomplish this with a for..in loop.
+for (let key in gradesDatabase) {
+
+    //This code logs to console the key and key values for each grade range
+    console.log(key + ": " + gradesDatabase[key]);
+
+    //This code logs to console the key and # of key values for each grade range
+    console.log(key + ": " + gradesDatabase[key].length);
+
+    // This code logs to console the key and sorted key values for each grade range
+    console.log(key + ": " + gradesDatabase[key].sort());
+
+}
+
 
 // What is the lowest score? Sort the array and find out.
 
